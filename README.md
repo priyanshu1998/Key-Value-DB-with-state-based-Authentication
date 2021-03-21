@@ -35,6 +35,8 @@ Simplified Redis like key-value DB using “socketserver” framework
     # on a different terminal execute
     python client.py
 
+    #NOTE: minimum python 3.9 required (use of "walrus operator") 
+
 
 ### References:
     https://docs.python.org/3/howto/sockets.html#socket-howto
