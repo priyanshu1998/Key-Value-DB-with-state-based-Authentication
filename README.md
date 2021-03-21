@@ -28,6 +28,12 @@ Simplified Redis like key-value DB using “socketserver” framework
     A user is assigned the “guest” role by default. The server can upgrade a “guest” user to a “manager” user. 
 
 
+### Execution:
+    # First execute the server. (server runs on port on port 9999)
+    python auth_server.py
+
+    # on a different terminal execute
+    python client.py
 
 
 ### References:
